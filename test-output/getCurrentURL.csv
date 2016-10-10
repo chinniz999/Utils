@@ -1,0 +1,2 @@
+getCurrentURL,[java.lang.AssertionError: expected [URL] but found [https://www.google.co.in/], java.lang.AssertionError: Message----> expected [true] but found [false]]
+verifyURL,[java.lang.AssertionError: expected [Googe] but found [Google], java.lang.AssertionError: 'This is Message'------> expected [true] but found [false]]

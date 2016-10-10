@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">3,708</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCasePack.Req_12345</td><td><a href="#m0">getCurrentURL</a></td><td rowspan="1">1476114959835</td><td rowspan="1">16</td></tr><tr class="failedeven"><td><a href="#m1">verifyURL</a></td><td rowspan="1">1476114959810</td><td rowspan="1">17</td></tr></tbody></table><h2>Test</h2><h3 id="m0">testCasePack.Req_12345#getCurrentURL</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Multiple failures (2):
+
+Failure 1 of 2:
+java.lang.AssertionError: expected [URL] but found [https://www.google.co.in/]
+	at utils.ErrorCollector.assertEquals(ErrorCollector.java:45)
+	at utils.ErrorCollector.verifyEquals(ErrorCollector.java:98)
+	at testCasePack.Req_12345.getCurrentURL(Req_12345.java:37)
+
+
+Failure 2 of 2:
+java.lang.AssertionError: Message----&gt; expected [true] but found [false]
+	at utils.ErrorCollector.assertTrue(ErrorCollector.java:29)
+	at utils.ErrorCollector.verifyTrue(ErrorCollector.java:66)
+	at testCasePack.Req_12345.getCurrentURL(Req_12345.java:38)
+... Removed 58 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">testCasePack.Req_12345#verifyURL</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Multiple failures (2):
+
+Failure 1 of 2:
+java.lang.AssertionError: expected [Googe] but found [Google]
+	at utils.ErrorCollector.assertEquals(ErrorCollector.java:45)
+	at utils.ErrorCollector.verifyEquals(ErrorCollector.java:98)
+	at testCasePack.Req_12345.verifyURL(Req_12345.java:29)
+
+
+Failure 2 of 2:
+java.lang.AssertionError: &apos;This is Message&apos;------&gt; expected [true] but found [false]
+	at utils.ErrorCollector.assertTrue(ErrorCollector.java:29)
+	at utils.ErrorCollector.verifyTrue(ErrorCollector.java:66)
+	at testCasePack.Req_12345.verifyURL(Req_12345.java:30)
+... Removed 58 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

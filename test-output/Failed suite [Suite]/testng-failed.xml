@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="utils.MethodListener"/>
+    <listener class-name="utils.RetryListner"/>
+    <listener class-name="utils.TestContext"/>
+  </listeners>
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="testCasePack.Req_12345">
+        <methods>
+          <include name="end"/>
+          <include name="init"/>
+          <include name="verifyURL"/>
+          <include name="getCurrentURL"/>
+        </methods>
+      </class> <!-- testCasePack.Req_12345 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
